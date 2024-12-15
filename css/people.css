@@ -1,0 +1,71 @@
+.wp-block-button__link {
+    color: #fff;
+    background-color: #32373c;
+    border-radius: 9999px;
+    padding: 0.667em 1.333em;
+    font-size: 1.125em;
+    text-decoration: none;
+    box-shadow: none;
+}
+.wp-block-file__button {
+    background: #32373c;
+    color: #fff;
+    text-decoration: none;
+}
+body {
+    --black: #000;
+    --white: #fff;
+    --cyan-bluish-gray: #abb8c3;
+    --pale-pink: #f78da7;
+    --vivid-red: #cf2e2e;
+    --vivid-orange: #ff6900;
+    --vivid-amber: #fcb900;
+    --light-green-cyan: #7bdcb5;
+    --vivid-green-cyan: #00d084;
+    --pale-cyan-blue: #8ed1fc;
+    --vivid-cyan-blue: #0693e3;
+    --vivid-purple: #9b51e0;
+    --font-small: 12px;
+    --font-medium: 20px;
+    --font-large: 36px;
+    --font-x-large: 42px;
+    --font-normal: 16px;
+    --font-huge: 50px;
+    --spacing-20: 0.44rem;
+    --spacing-40: 1rem;
+    --shadow-natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    --shadow-deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+}
+body .alignleft {
+    float: left;
+    margin-right: 2em;
+}
+body .alignright {
+    float: right;
+    margin-left: 2em;
+}
+body .aligncenter {
+    margin: 0 auto !important;
+}
+body .is-layout-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    align-items: center;
+}
+body .is-layout-grid {
+    display: grid;
+    gap: 0.5em;
+}
+.has-black-color { color: var(--black) !important; }
+.has-white-color { color: var(--white) !important; }
+.has-cyan-bluish-gray-color { color: var(--cyan-bluish-gray) !important; }
+.has-black-background-color { background-color: var(--black) !important; }
+.has-white-background-color { background-color: var(--white) !important; }
+.has-small-font-size { font-size: var(--font-small) !important; }
+.has-medium-font-size { font-size: var(--font-medium) !important; }
+.has-large-font-size { font-size: var(--font-large) !important; }
+.wp-block-pullquote {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
